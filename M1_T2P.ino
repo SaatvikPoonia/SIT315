@@ -1,4 +1,5 @@
 /*
+Name: Saatvik
 PIR sensor tester with interrupt
 */
 int ledPin = 12; // choose the pin for the LED
