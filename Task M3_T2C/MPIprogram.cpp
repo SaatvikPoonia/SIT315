@@ -61,6 +61,7 @@ int main(int argc, char** argv) {
 
     if (rank == 0) {
         // Merge the sorted chunks using quicksort
+        double startTime = MPI_Wtime();
         quicksort(arr, 0, n - 1);
 
         // Output the sorted array and the execution time
